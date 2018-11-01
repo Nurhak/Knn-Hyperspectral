@@ -1,0 +1,18 @@
+KODLAR MATLAB ORTAMINDA NURHAK ALTIN TARAFINDAN YAZILMIÞTIR.
+
+knn.m SCRÝPTÝ ALTINDA KNN ÝLE SINIFLANDIRMA YAPILMIÞ VE SONUÇLAR MATRÝS OLARAK KAYDEDÝLMÝÞTÝR.
+PREDICTED VE PREDICTED_16_5 SONUÇ DOSYALARIDIR.
+PREDICTED K=3 ÝÇÝN;
+PREDICTED_16_5 K=5 ÝÇÝN YAPILAN SINFILANDIRMA SONUCUDUR.
+
+Sonuc_goster.m sonuçlarý görselleþtirmek için yazýlmýþýtr.
+ilk gösterilen figürler gri imge olarak gösterilmiþtir fakat sonuçlar anlaþýlýr olmadýðý için renklendirilmiþtir.
+K_3.png ve K_5.png bu imgelerde yeþil olarak gösterilen yerler 0 labela sahip ve dahil edilmeyen kýsýmlardýr.
+Mavi kýsýmlar groundtruth da bulunan farklý labellara sahip kýsýmlardýr.
+Sarý kýsýmlar ise sonuç dosyasý ile ground turth un ayný deðere sahip olduðu kýsýmlardýr.
+
+Sayýsal sonuç olarak yüzde doðruluk hesaplanmýþtýr.
+K=3 için yüzde=62.753864447086800
+K=5 için yüzde=63.833531510107015
+
+Kodun derlenmesi uzun dürdüðü için sadece K=3 ve K=5 deðerleri için sonuçlar kaydedilmiþtir.
